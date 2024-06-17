@@ -1,0 +1,13 @@
+[package]
+name = "demo-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aleo = { git = "https://github.com/AleoHQ/aleo", branch = "testnet3" }
+snarkos = { git = "https://github.com/AleoHQ/snarkos", branch = "mainnet-staging" }
+aleo_std = { git = "https://github.com/ProvableHQ/aleo-std", branch = "main" }
+
+[build-dependencies]
+walkdir = "2"
+
